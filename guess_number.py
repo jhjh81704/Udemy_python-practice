@@ -5,8 +5,10 @@ Created on Thu Apr 25 21:02:04 2019
 @author: user
 """
 import random
+start = int(input('請決定隨機數字範圍開始值: '))
+end = int(input('請決定隨機數字範圍結束值: '))
 
-r = random.randint(1, 100)
+r = random.randint(start, end)
 count = 0
 
 while True:
